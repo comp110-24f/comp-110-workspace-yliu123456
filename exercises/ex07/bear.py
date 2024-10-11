@@ -1,9 +1,15 @@
 """File to define Bear class."""
 
-class Bear:
-    
-    def __init__(self):
-        return None
-    
-    def one_day(self):
-        return None
+
+def double(x: int) -> int:
+    return x * 2
+
+
+def double_display(y: int):
+    print(y * 2)
+
+
+double_display(2)
+
+if __name__ == "__main__":
+    print(double(3))
